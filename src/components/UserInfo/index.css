@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+
+.profile-img {
+  height: 150px;
+  width: 150px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-heading {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #12022f;
+}
+@media screen and (min-width: 768px) {
+  .profile-heading {
+    font-size: 25px;
+  }
+}
+
+.profile-description {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #616e7c;
+}
